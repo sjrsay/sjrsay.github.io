@@ -10,29 +10,35 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+:root {
+  --linkcolour:  rgb(201, 130, 130);
+}
+
 body {font-family: "Roboto", sans-serif; background-color:rgb(245, 245, 245)}
 h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
-a:link {color:rgb(204, 109, 120);text-decoration: none;}
-a:visited {color:rgb(204, 109, 120);text-decoration: none;}
-a:hover {color:rgb(204, 109, 120);text-decoration: none;}
-a:active {color:rgb(204, 109, 120);text-decoration: none;}
+a:link {color:var(--linkcolour);text-decoration: none;}
+a:visited {color:var(--linkcolour);text-decoration: none;}
+a:hover {color:var(--linkcolour);text-decoration: underline;}
+a:active {color:var(--linkcolour);text-decoration: none;}
 
 
 
-.my-text {background-color:white; font-size:medium; color:#604D25}
+.my-text {background-color:white; font-size:medium; color:#604D25; border-radius:0px 0px 5px 5px}
 
+.bluebar { background-color:#7c87a0; border-radius:5px 5px 0px 0px }
+.bluelabel { color:white; background-color:#4b5570 }
 
 .addrinfo { text-align: left }
 
 .mypic { text-align: right }
 
-.buttons { text-align: right; }
+.buttons { text-align: center; }
 
-.sidebar { width:230px }
+.sidebar { width:200px }
 
 .left-spacer { width:10% }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1300px) {
   .mypic { text-align: center }
   .addrinfo { text-align: center }
   .buttons { display:none  }
@@ -40,64 +46,68 @@ a:active {color:rgb(204, 109, 120);text-decoration: none;}
   .left-spacer { display:none }
 }
 
-
 </style>
 <body>
   <div class="w3-row w3-padding-16">
     <div class="w3-col left-spacer" style="width:10%">&nbsp</div>
-    <div class="w3-col w3-mobile sidebar">
-      <!-- Sidebar -->
-      <div class="w3-container mypic w3-margin-bottom">
-        <img class="w3-round-xlarge" style="width:200px" src="wbc.jpg" />
-      </div>
-      <div class="w3-hide-small buttons w3-padding-24">
-        <div class="w3-container" style="padding-bottom:2px">
-          <span class="w3-large w3-padding-small" style="border-radius:5px 5px 0px 0px;display:inline-block; width:200px"><a href="#Biography">Biography</a></span>
-        </div>
-        <div class="w3-container"style="padding-bottom:2px">
-          <span class="w3-large w3-padding-small" style="display:inline-block; width:200px"><a href="#Research">Research</a></span>
-        </div>
-        <div class="w3-container "style="padding-bottom:2px">
-          <span class="w3-large w3-padding-small" style="display:inline-block; width:200px"><a href="#Funding">Funding</a></span>
-        </div>
-        <div class="w3-container "style="padding-bottom:2px">
-          <span class="w3-large w3-padding-small" style="display:inline-block; width:200px"><a href="#Students">Students</a></span>
-        </div>
-        <div class="w3-container "style="padding-bottom:2px">
-          <span class="w3-large w3-padding-small" style="border-radius:0px 0px 5px 5px;display:inline-block; width:200px"><a href="#Teaching">Teaching</a></span>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col w3-mobile" style="width:800px">
+    
+    <div class="w3-col w3-mobile" style="width:900px">
       <!-- Header -->
-      <div class="w3-container w3-margin-bottom addrinfo">
-        <div class="w3-large w3-margin-bottom">
-          <span class="w3-text-white w3-padding-small w3-round" style="display:inline-block;background-color:#7786a8">steven.ramsay at bristol.ac.uk</span>
+      <div class="w3-cell-row w3-padding-16">
+        <div class="w3-cell"></div>
+        <div class="w3-cell w3-mobile" style="width:220px">
+          <div class="w3-container mypic w3-margin-bottom">
+            <img class="w3-circle" style="width:220px" src="wbc.jpg" />
+          </div>
         </div>
-        <div class=""><span class="w3-xxlarge w3-round-large w3-2018-sargasso-sea w3-padding-small" style="display:inline-block">Steven Ramsay <a itemprop="sameAs" content="https://orcid.org/0000-0002-0825-8386" href="https://orcid.org/0000-0002-0825-8386" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:16px;margin-right:.5em;" alt="ORCID iD icon"></a></span></div>
-        <div class="w3-large w3-margin-top">
-          <span class="w3-text-white w3-padding-small" style="border-radius:7px 7px 7px 0px; display:inline-block;background-color:#5d6986">
-            Department of Computer Science</span>
+        <div class="w3-cell w3-cell-middle w3-mobile" style="width:350px">
+          <div class="w3-container w3-margin-bottom addrinfo">
+            <div class="w3-large w3-margin-bottom" style="padding-left:10px">
+              <span class="w3-text-white w3-padding-small w3-round" style="display:inline-block;background-color:#7786a8">steven.ramsay at bristol.ac.uk</span>
+            </div>
+            <div class="w3-margin-left" style="padding-left:20px"><span class="w3-xxlarge w3-round-large bluelabel w3-padding-small" style="display:inline-block"> &nbsp;Steven Ramsay&nbsp; </span></div>
+            <div class="w3-large w3-margin-top" style="padding-left:10px">
+              <span class="w3-text-white w3-padding-small" style="border-radius:7px 7px 7px 0px; display:inline-block;background-color:#5d6986">
+                Department of Computer Science</span>
+            </div>
+            <div class="w3-large">
+                <span class="w3-text-white w3-padding-small" style="border-radius:7px 0px 7px 7px; display:inline-block;background-color:#5d6986">University of Bristol</span>
+            </div>
+          </div>
         </div>
-        <div class="w3-large">
-            <span class="w3-text-white w3-padding-small" style="border-radius:0px 0px 7px 7px; display:inline-block;background-color:#5d6986">University of Bristol</span>
-        </div>
+        <div class="w3-cell"></div>
+      </div>
+      <!-- Links-->
+      <div class="w3-cell-row w3-center w3-hide-small w3-padding-16">
+        <div class="w3-cell"></div>
+        <div class="w3-cell" style="width:100px"><a href="#biography">Biography</a></div>
+        <div class="w3-cell" style="width:10px">-</div>
+        <div class="w3-cell" style="width:100px"><a href="#research">Research</a></div>
+        <div class="w3-cell" style="width:10px">-</div>
+        <div class="w3-cell" style="width:100px"><a href="#funding">Funding</a></div>
+        <div class="w3-cell" style="width:10px">-</div>
+        <div class="w3-cell" style="width:100px"><a href="#students">Students</a></div>
+        <div class="w3-cell" style="width:10px">-</div>
+        <div class="w3-cell" style="width:100px"><a href="#teaching">Teaching</a></div>
+        <div class="w3-cell" style="width:10px">-</div>
+        <div class="w3-cell" style="width:100px"><a href="https://github.com/bristolpl">GitHub</a></div>
+        <div class="w3-cell"></div>
       </div>
       <!-- Body -->
-      <div class="w3-container w3-padding-24">
-        <div class="w3-container w3-round" style="background-color:#5d6986"><span class="w3-round w3-2018-sargasso-sea w3-padding w3-xlarge">Biography</span></div>
-        <div class="w3-container w3-round my-text">
+      <div class="w3-container w3-padding-24" id="biography">
+        <div class="w3-container bluebar"><span class="w3-round w3-padding w3-xlarge bluelabel">Biography</span></div>
+        <div class="w3-container my-text w3-padding">
           <p>
             I am currently a Lecturer in Computer Science at the University of Bristol, where my teaching and research is about mathematical theories for reasoning about computation and their application in programming tools. 
           </p>
           <p>
-            Previously I was a postdoctoral researcher at the Universities of Oxford and Warwick, and I completed my DPhil at the University of Oxford.  Prior to academia, I worked for the formal methods group of QinetiQ using mechanised proof assistants as part of verifying the correctness of certain safety critical systems.
+            Previously I was a postdoctoral researcher at the Universities of Oxford and Warwick, and I completed my DPhil at the University of Oxford.  Prior to academia, I worked for the formal methods group of QinetiQ, verifying the correctness of safety critical systems.
           </p>
         </div>
       </div>
-      <div class="w3-container w3-padding-24">
-        <div class="w3-container w3-round" style="background-color:#5d6986"><span class="w3-round w3-2018-sargasso-sea w3-padding w3-xlarge">Research</span></div>
-        <div class="w3-container w3-round my-text">
+      <div class="w3-container w3-padding-24" id="research">
+        <div class="w3-container w3-round bluebar"><span class="w3-round w3-padding w3-xlarge bluelabel">Research</span></div>
+        <div class="w3-container my-text w3-padding">
           <p>My research is on program analysis and automated reasoning, especially for applications in program verification.</p>
           <p>
             <ul class="w3-ul ">
@@ -112,9 +122,9 @@ a:active {color:rgb(204, 109, 120);text-decoration: none;}
           </p>
         </div>
       </div>
-      <div class="w3-container w3-padding-24">
-        <div class="w3-container w3-round" style="background-color:#5d6986"><span class="w3-round w3-padding w3-xlarge w3-2018-sargasso-sea">Funding</span></div>
-        <div class="w3-container w3-round my-text">
+      <div class="w3-container w3-padding-24" id="funding">
+        <div class="w3-container w3-round bluebar"><span class="w3-round w3-padding w3-xlarge bluelabel">Funding</span></div>
+        <div class="w3-container w3-round my-text w3-padding">
           <p class="another">I am currently grateful for the following funding:</p>
           <ul class="w3-ul" >
             <li><b>EPSRC (EP/T006595/1).</b> A 3.5 year project on <i>Higher-Order Constrained Horn Clauses: A New Approach to Verifying Higher-Order Programs.</i></li>
@@ -122,9 +132,9 @@ a:active {color:rgb(204, 109, 120);text-decoration: none;}
           </ul>
         </div>
       </div>
-      <div class="w3-container w3-padding-24">
-        <div class="w3-container w3-round" style="background-color:#5d6986"><span class="w3-round w3-padding w3-xlarge w3-2018-sargasso-sea">Students</span></div>
-        <div class="w3-container w3-round my-text">
+      <div class="w3-container w3-padding-24" id="students">
+        <div class="w3-container w3-round bluebar"><span class="w3-round w3-padding w3-xlarge bluelabel">Students</span></div>
+        <div class="w3-container w3-round my-text w3-padding">
           <p class="another">I am supervising the following doctoral students:</p>
           <ul>
             <li><b>Toby Cathcart Burn</b>, co-supervised with Luke Ong and based at the University of Oxford.</li>
@@ -132,9 +142,9 @@ a:active {color:rgb(204, 109, 120);text-decoration: none;}
           </ul>
         </div>
       </div>
-      <div class="w3-container w3-padding-24">
-        <div class="w3-container w3-round" style="background-color:#5d6986"><span class="w3-round w3-padding w3-xlarge w3-2018-sargasso-sea">Teaching</span></div>
-        <div class="w3-container w3-round my-text">
+      <div class="w3-container w3-padding-24" id="teaching">
+        <div class="w3-container w3-round bluebar"><span class="w3-round w3-padding w3-xlarge bluelabel">Teaching</span></div>
+        <div class="w3-container w3-round my-text w3-padding">
           <p class="another">I run the following two modules at the University of Bristol:</p>
           <ul class="w3-ul">
             <li><b>COMS30040: Types and Lambda Calculus.</b> An introduction to the pure, untyped lambda calculus, ML-style type systems and the Curry-Howard correspondence.</li>
@@ -147,6 +157,7 @@ a:active {color:rgb(204, 109, 120);text-decoration: none;}
       <br/>
       <br/>
     </div>
+    <div class="w3-col w3-mobile" style="width:10%">&nbsp;</div>
     <div class="w3-rest w3-mobile"></div>
   </div>
 </body>

@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2019.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:wght@700">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abel">
+<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
@@ -14,7 +15,7 @@
   --linkcolour:  rgb(201, 130, 130);
 }
 
-body {font-family: "Roboto", sans-serif; background-color:rgb(245, 245, 245)}
+body {font-family: "Roboto", sans-serif; background-color:rgb(233, 231, 231)}
 h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 a:link {color:var(--linkcolour);text-decoration: none;}
 a:visited {color:var(--linkcolour);text-decoration: none;}
@@ -25,8 +26,9 @@ a:active {color:var(--linkcolour);text-decoration: none;}
 
 .my-text {background-color:white; font-size:medium; color:#604D25; border-radius:0px 0px 5px 5px}
 
-.bluebar { background-color:#7c87a0; border-radius:5px 5px 0px 0px }
-.bluelabel { color:white; background-color:#4b5570 }
+.bluebar { background-color:#bac8ce; border-radius:5px 5px 0px 0px}
+.headerbar { background-color:#bac7ce }
+.bluelabel { color:white; background-color:#7f898f }
 
 .addrinfo { text-align: left }
 
@@ -48,30 +50,30 @@ a:active {color:var(--linkcolour);text-decoration: none;}
 
 </style>
 <body>
-  <div class="w3-row w3-padding-16">
+  <div class="w3-row ">
     <div class="w3-col left-spacer" style="width:10%">&nbsp</div>
     
-    <div class="w3-col w3-mobile" style="width:900px">
+    <div class="w3-col w3-mobile" style="background-color:rgb(245, 245, 245); width:1000px; padding-left:60px; padding-top:30px; padding-right:60px">
       <!-- Header -->
       <div class="w3-cell-row w3-padding-16">
         <div class="w3-cell"></div>
-        <div class="w3-cell w3-mobile" style="width:220px">
+        <div class="w3-cell w3-mobile" style="width:230px">
           <div class="w3-container mypic w3-margin-bottom">
-            <img class="w3-circle" style="width:220px" src="wbc.jpg" />
+            <img class="w3-circle" style="width:230px" src="wbc2.jpg" />
           </div>
         </div>
-        <div class="w3-cell w3-cell-middle w3-mobile" style="width:350px">
+        <div class="w3-cell w3-cell-middle w3-mobile" style="width:420px">
           <div class="w3-container w3-margin-bottom addrinfo">
-            <div class="w3-large w3-margin-bottom" style="padding-left:10px">
-              <span class="w3-text-white w3-padding-small w3-round" style="display:inline-block;background-color:#7786a8">steven.ramsay at bristol.ac.uk</span>
+            <div class="w3-large " style="padding-left:10px">
+              <span class="w3-text-white w3-padding-small w3-round headerbar" style="display:inline-block">steven.ramsay at bristol.ac.uk</span>
             </div>
-            <div class="w3-margin-left" style="padding-left:20px"><span class="w3-xxlarge w3-round-large bluelabel w3-padding-small" style="display:inline-block"> &nbsp;Steven Ramsay&nbsp; </span></div>
-            <div class="w3-large w3-margin-top" style="padding-left:10px">
-              <span class="w3-text-white w3-padding-small" style="border-radius:7px 7px 7px 0px; display:inline-block;background-color:#5d6986">
+            <div class="w3-margin-left w3-padding-16" style="padding-left:20px"><span class="w3-xxxlarge w3-round-large" style="color:#4e5d68"> Steven Ramsay </span></div>
+            <div class="w3-large " style="padding-left:10px">
+              <span class="w3-text-white w3-padding-small headerbar" style="border-radius:7px 7px 7px 0px; display:inline-block;">
                 Department of Computer Science</span>
             </div>
             <div class="w3-large">
-                <span class="w3-text-white w3-padding-small" style="border-radius:7px 0px 7px 7px; display:inline-block;background-color:#5d6986">University of Bristol</span>
+                <span class="w3-text-white w3-padding-small headerbar" style="border-radius:7px 0px 7px 7px; display:inline-block;">University of Bristol</span>
             </div>
           </div>
         </div>
@@ -80,17 +82,17 @@ a:active {color:var(--linkcolour);text-decoration: none;}
       <!-- Links-->
       <div class="w3-cell-row w3-center w3-hide-small w3-padding-16">
         <div class="w3-cell"></div>
-        <div class="w3-cell" style="width:100px"><a href="#biography">Biography</a></div>
-        <div class="w3-cell" style="width:10px">-</div>
-        <div class="w3-cell" style="width:100px"><a href="#research">Research</a></div>
-        <div class="w3-cell" style="width:10px">-</div>
-        <div class="w3-cell" style="width:100px"><a href="#funding">Funding</a></div>
-        <div class="w3-cell" style="width:10px">-</div>
-        <div class="w3-cell" style="width:100px"><a href="#students">Students</a></div>
-        <div class="w3-cell" style="width:10px">-</div>
-        <div class="w3-cell" style="width:100px"><a href="#teaching">Teaching</a></div>
-        <div class="w3-cell" style="width:10px">-</div>
-        <div class="w3-cell" style="width:100px"><a href="https://github.com/bristolpl">GitHub</a></div>
+        <div class="w3-cell w3-large" style="width:100px"><a href="#biography">Biography</a></div>
+        <div class="w3-cell w3-large" style="width:10px">-</div>
+        <div class="w3-cell w3-large" style="width:100px"><a href="#research">Research</a></div>
+        <div class="w3-cell w3-large" style="width:10px">-</div>
+        <div class="w3-cell w3-large" style="width:100px"><a href="#funding">Funding</a></div>
+        <div class="w3-cell w3-large" style="width:10px">-</div>
+        <div class="w3-cell w3-large" style="width:100px"><a href="#students">Students</a></div>
+        <div class="w3-cell w3-large" style="width:10px">-</div>
+        <div class="w3-cell w3-large" style="width:100px"><a href="#teaching">Teaching</a></div>
+        <div class="w3-cell w3-large" style="width:10px">-</div>
+        <div class="w3-cell w3-large" style="width:100px"><a href="https://github.com/bristolpl">GitHub</a></div>
         <div class="w3-cell"></div>
       </div>
       <!-- Body -->

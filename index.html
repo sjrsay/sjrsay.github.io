@@ -38,12 +38,24 @@ a:active {color:var(--linkcolour);text-decoration: none;}
 
 .left-spacer { width:10% }
 
+.maincol {
+  background-color:rgb(245, 245, 245); 
+  width:1020px; 
+  padding-left:40px; 
+  padding-top:10px; 
+  padding-right:40px; 
+  border-width:0px 100px 0px 20px; 
+  border-style:solid; 
+  border-color:rgb(240, 240, 240)
+}
+
 @media screen and (max-width:1300px) {
   .mypic { text-align: center }
   .addrinfo { text-align: center }
   .buttons { display:none  }
   .sidebar { width:800px; }
   .left-spacer { display:none }
+  .maincol { border-style:none; padding:0px }
 }
 
 </style>
@@ -51,7 +63,7 @@ a:active {color:var(--linkcolour);text-decoration: none;}
   <div class="w3-row ">
     <div class="w3-col left-spacer" style="width:10%">&nbsp</div>
     
-    <div class="w3-col w3-mobile" style="background-color:rgb(245, 245, 245); width:950px; padding-left:40px; padding-top:10px; padding-right:40px">
+    <div class="w3-col w3-mobile maincol">
       <!-- Header -->
       <div class="w3-cell-row w3-padding-16">
         <div class="w3-cell"></div>

@@ -24,8 +24,8 @@ a:active {color:var(--linkcolour);text-decoration: none;}
 
 .my-text {background-color:white; font-size:medium; color:#604D25; border-radius:0px 0px 5px 5px}
 
-.bluebar { background-color:#bac8ce; border-radius:5px 5px 0px 0px}
-.headerbar { background-color:#bac7ce }
+.bluebar { background-color:#d7dddf; border-radius:5px 5px 0px 0px}
+.headerbar { background-color:#bec7cc }
 .bluelabel { color:white; background-color:#7f898f; font-size:16pt }
 
 .addrinfo { text-align: left }
@@ -92,7 +92,7 @@ a:active {color:var(--linkcolour);text-decoration: none;}
       <!-- Links-->
       <div class="w3-cell-row w3-center w3-hide-small w3-padding-16">
         <div class="w3-cell"></div>
-        <div class="w3-cell w3-large" style="width:100px"><a href="#biography">Biography</a></div>
+        <div class="w3-cell w3-large" style="width:100px"><a href="#biography">About</a></div>
         <div class="w3-cell w3-large" style="width:10px">-</div>
         <div class="w3-cell w3-large" style="width:100px"><a href="#research">Research</a></div>
         <div class="w3-cell w3-large" style="width:10px">-</div>
@@ -107,37 +107,37 @@ a:active {color:var(--linkcolour);text-decoration: none;}
       </div>
       <!-- Body -->
       <div class="w3-container w3-padding-24" id="biography">
-        <div class="w3-container bluebar"><span class="w3-round w3-padding bluelabel">Biography</span></div>
+        <div class="w3-container bluebar"><span class="w3-round w3-padding bluelabel">About</span></div>
         <div class="w3-container my-text w3-padding">
           <p>
-            I am a Lecturer in Computer Science at the University of Bristol, where my work concerns mathematical theories for reasoning about computation and their application in programming tools. 
+            I am a senior lecturer in the <a href="https://bristolpl.github.io/" target="_blank">Programming Languages Group</a> in the <a href="http://www.bris.ac.uk/engineering/departments/computerscience/" target="_blank">Department of Computer Science</a> at the <a href="https://www.bris.ac.uk" target="_blank">University of Bristol</a>.  My work concerns mathematical theories for reasoning about computation and their application in designing more intelligent and predictable tools for programmers. 
           </p>
           <p>
-            Previously I was a postdoctoral researcher at the Universities of Oxford and Warwick, and I completed my DPhil at the University of Oxford.  Prior to academia, I worked for the formal methods group of QinetiQ, verifying the correctness of safety critical systems.
+            If you are interested in studying for a PhD with me on one of these topics, take a look at my papers below and then get in touch.
+          </p>
+          <p>
+            Previously I was a postdoctoral researcher at the Universities of Oxford and Warwick, and I completed my DPhil at the University of Oxford.  Prior to academia, I worked in QinetiQ's formal methods group, verifying the correctness of safety critical systems.
           </p>
         </div>
       </div>
       <div class="w3-container w3-padding-24" id="research">
         <div class="w3-container w3-round bluebar"><span class="w3-round w3-padding bluelabel">Research</span></div>
         <div class="w3-container my-text w3-padding">
-          <p>My research is on program analysis and automated reasoning, especially for applications in program verification.</p>
-          <p>
-            <ul class="w3-ul ">
-              <li><b>Tools for functional programming.</b> I work on designing tools that functional programmers can use to reason about their programs.  It is very important to my work that tools should be artifacts with predictable behaviour and understandable character, rather than just a button that is pushed with some hope for the best.  A good example of this is our <a href="https://dl.acm.org/doi/10.1145/3434336">POPL'21</a> paper, in which Eddie Jones and I have developed a new refinement type system and inference algorithm that is capable of automatically proving pattern-match safety and comes with a linear-time guarantee on run-time complexity.  On the one hand, it is easy to understand when this tool will (or will not) be useful, because it's reasoning power is characterised by a familiar type system; on the other hand there is no concern over termination since scalability is ensured by our complexity argument.  You can find our prototype implementation for Haskell, <a href="https://github.com/bristolpl/intensional-datatys">Intensional Datatypes</a>, on GitHub and Hackage.</li>
-              <li><b>Fragments of higher-order logic.</b> I argue that the natural setting in which to reason about higher-order computation, such as the computation exhibited by functional programs, is higher-order logic.  I am interested in fragments of higher-order logic that have good computational properties.  In our <a href="https://research-information.bris.ac.uk/en/publications/higher-order-constrained-horn-clauses-for-verification">POPL'18</a> paper, Toby Cathcart Burn, Luke Ong and I introduced <i>higher-order constrained Horn clauses</i> which are a natural extension of constrained Horn clauses to higher-order logic.  The first-order restriction of this logic is already known to be an excellent language in which to discuss program invariants.  We showed that the satisfiability problem for our logic, although undecidable, is both a natural language for formalising higher-order program safety and has a number of excellent algorithmic properties.  In our forthcoming <a href="https://arxiv.org/abs/2104.14175">LICS'21</a> paper, we have shown that a large family of fragments of this logic are even decidable.</li>
-              <li><b>Automata over infinite alphabets.</b> I am interested in understanding the character of finite automata over infinite alphabets.  From the perspective of program verification, such automata are useful as a representation of the state spaces of programs manipulating unbounded, named resources.  Andrzej Murawski, Nikos Tzevelekos and I characterised the computational complexity of certain important decision problems over a variety of common definitions of register automata.  For example, in our <a href="https://research-information.bris.ac.uk/en/publications/bisimilarity-in-fresh-register-automata">LICS'15</a> paper, we show that the register discipline used determines whether the bisimilarity problem is EXPTIME-, PSPACE- or NP-complete and, in our <a href="https://research-information.bris.ac.uk/en/publications/reachability-in-pushdown-register-automata">JCSS</a> article, we showed that, by contrast, the emptiness problem is EXPTIME-complete regardless of discipline.  On a more positive note, building on some work in computational group theory, we showed that the language equivalence problem for deterministic register automata (of a certain kind) can be decided in PTIME and this formed the foundation of our tool <a href="https://github.com/stersay/deq">DEQ</a>, available on GitHub.</li>
-              <li><b>Higher-order model checking.</b> My doctoral thesis was on the theory and practice of the higher-order model checking problem.  Narrowly defined, this is the problem of verifying that the infinite tree defined by a given higher-order recursion scheme satisfies a property definable in the modal mu-calculus or the monadic second-order theory of trees.  In our <a href="https://research-information.bris.ac.uk/en/publications/a-type-directed-abstraction-refinement-approach-to-higher-order-m">POPL'14</a> paper, Luke Ong and I gave a very efficient algorithm for deciding the safety restriction of this model checking problem that was based on the idea of using negative types to characterise information coming from spurious counterexamples.  In our <a href="https://research-information.bris.ac.uk/en/publications/verifying-higher-order-functional-programs-with-pattern-matching-">POPL'11</a> paper we had already given the first general purpose method for software verification based on this decision problem.</li>
-            </ul>
+          <p>My research is on program analysis and automated reasoning, especially for applications in program verification.  See <a href="https://research-information.bris.ac.uk/en/persons/steven-ramsay/publications/">here</a> for a full list of my publications.
           </p>
           <p>
-            See <a href="https://research-information.bris.ac.uk/en/persons/steven-ramsay/publications/">here</a> for a full list of my publications.
+            <ul class="w3-ul ">
+              <li><b>Tools for functional programming <a href="https://research-information.bris.ac.uk/files/265849562/3434336.pdf" target="_blank">[POPL'21]</a>.</b> Designing tools based on automated reasoning to help programmers write bug-free code.
+              <li><b>Fragments of higher-order logic <a href="https://research-information.bris.ac.uk/files/142259264/popl18_p253.pdf" target="_blank">[POPL'18]</a> <a href="https://research-information.bris.ac.uk/files/271322251/main.pdf" target="_blank">[LICS'21]</a>.</b> Identifying and exploiting fragments of higher-order logic that have good computational properties.
+              <li><b>Automata over infinite alphabets <a href="papers/ra-bisimilarity.pdf" target="_blank">[LICS'15]</a> <a href="https://research-information.bris.ac.uk/files/135388861/1_s2.0_S0022000017300272_main.pdf" target="_blank">[JCSS'17]</a>.</b> Classifying foundational problems for classes register automata by their computational complexity.
+              <li><b>Higher-order model checking <a href="papers/cegar-pattern-match-safety.pdf" target="_blank">[POPL'11]</a> <a href="papers/type-directed-cegar-homc.pdf">[POPL'14]</a>.</b> Designing new methods for the higher-order extension of software model checking.
+            </ul>
           </p>
         </div>
       </div>
       <div class="w3-container w3-padding-24" id="funding">
-        <div class="w3-container w3-round bluebar"><span class="w3-round w3-padding bluelabel">Funding</span></div>
+        <div class="w3-container w3-round bluebar"><span class="w3-round w3-padding bluelabel">Funded Projects</span></div>
         <div class="w3-container w3-round my-text w3-padding">
-          <p class="another">I am currently grateful for the following funding:</p>
           <ul class="w3-ul" >
             <li><b>EPSRC (EP/T006595/1).</b> A 3.5 year project on <i>Higher-Order Constrained Horn Clauses: A New Approach to Verifying Higher-Order Programs.</i></li>
             <li><b>UK Research Institute on Verified, Trustworthy Software Systems.</b> A PhD studentship on <i>Higher-Order Program Invariants</i>.</li>
@@ -145,22 +145,21 @@ a:active {color:var(--linkcolour);text-decoration: none;}
         </div>
       </div>
       <div class="w3-container w3-padding-24" id="students">
-        <div class="w3-container w3-round bluebar"><span class="w3-round w3-padding bluelabel">Students</span></div>
+        <div class="w3-container w3-round bluebar"><span class="w3-round w3-padding bluelabel">PhD Students</span></div>
         <div class="w3-container w3-round my-text w3-padding">
-          <p class="another">I am supervising the following doctoral students:</p>
-          <ul>
+          <ul class="w3-ul">
             <li><b>Toby Cathcart Burn</b>, co-supervised with Luke Ong and based at the University of Oxford.</li>
             <li><b>Eddie Jones</b>, funded by the VeTSS Research Institute and based at the University of Bristol.</li>
           </ul>
         </div>
       </div>
       <div class="w3-container w3-padding-24" id="teaching">
-        <div class="w3-container w3-round bluebar"><span class="w3-round w3-padding bluelabel">Teaching</span></div>
+        <div class="w3-container w3-round bluebar"><span class="w3-round w3-padding bluelabel">Current Teaching</span></div>
         <div class="w3-container w3-round my-text w3-padding">
-          <p class="another">I run the following two modules at the University of Bristol:</p>
+          <p class="another">I run the following two courses at the University of Bristol:</p>
           <ul class="w3-ul">
             <li><b>COMS30040: Types and Lambda Calculus.</b> An introduction to the pure, untyped lambda calculus, ML-style type systems and the Curry-Howard correspondence.</li>
-            <li><b>COMS20007: Programming Languages and Computation (Part I).</b> An introduction to the theory of computation, with a logical flavour.  Finite automata, the decidability of Presburger arithmetic, Turing Machines, the Church-Turing thesis, undecidability, reductions and the unsolvability of first-order arithmetic.</li>
+            <li><b>COMS20007: Programming Languages and Computation.</b> An introduction to automata theory, programming language theory and the theory of computation.</li>
           </ul>
         </div>
       </div>

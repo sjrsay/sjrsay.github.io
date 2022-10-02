@@ -5,29 +5,29 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2018.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2019.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:wght@700">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 <style>
 :root {
   --linkcolour:  rgb(201, 130, 130);
 }
 
-body {font-family: "Roboto", sans-serif; background-color:rgb(233, 231, 231)}
-h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body {font-family: "Noto Serif", serif; font-weight: 400; background-color:rgb(205, 205, 205); color:#3a3b3b}
+h1,h2,h3,h4,h5,h6 {font-family: "Noto Serif", serif; font-style:italic;}
 a:link {color:var(--linkcolour);text-decoration: none;}
 a:visited {color:var(--linkcolour);text-decoration: none;}
 a:hover {color:var(--linkcolour);text-decoration: underline;}
 a:active {color:var(--linkcolour);text-decoration: none;}
 
-.headtxt {font-family: 'Inter', sans-serif; font-style:italic}
+.headtxt {font-family: 'Noto Serif', serif; font-style:italic}
 
-.my-text {background-color:white; font-size:medium; color:#604D25; border-radius:0px 0px 5px 5px}
+.my-text {background-color:white; font-size:12pt; font-weight:400; padding:0em 6em 0em 6em}
 
-.bluebar { background-color:#d7dddf; border-radius:5px 5px 0px 0px}
+.bluebar { background-color:#d7dddf; border-radius:5px 5px 0px 0px;}
 .headerbar { background-color:#bec7cc }
-.bluelabel { color:white; background-color:#7f898f; font-size:16pt }
+.bluelabel { color:rgb(187, 187, 187); font-size:18pt; font-family:"Noto Serif",serif; font-style:italic; }
 
 .addrinfo { text-align: left }
 
@@ -37,20 +37,18 @@ a:active {color:var(--linkcolour);text-decoration: none;}
 
 .sidebar { width:200px }
 
-.left-spacer { width:10% }
+.left-spacer { width:10%; display:none}
 
 .maincol {
   background-color:rgb(245, 245, 245); 
   width:1020px; 
-  padding-left:40px; 
-  padding-top:10px; 
-  padding-right:40px; 
-  border-width:0px 100px 0px 20px; 
-  border-style:solid; 
+  padding:0px;
+  border-width:0px 20px 0px 20px; 
+  border-style:none; 
   border-color:rgb(240, 240, 240)
 }
 
-@media screen and (max-width:1300px) {
+@media screen and (max-width:600px) {
   .mypic { text-align: center }
   .addrinfo { text-align: center }
   .buttons { display:none  }
@@ -78,7 +76,7 @@ a:active {color:var(--linkcolour);text-decoration: none;}
             <div class="w3-large " style="">
               <span class="w3-round headtxt" style="display:inline-block;color:#95a1a5; ">steven.ramsay at bristol.ac.uk</span>
             </div>
-            <div class="w3-margin-left w3-padding-small" style="padding-left:20px"><span class="w3-round-large" style="color:#4e5d68;font-size:32pt;font-family: 'Inter', sans-serif;"> Steven Ramsay </span></div>
+            <div class="w3-margin-left w3-padding-small" style="padding-left:20px"><span class="w3-round-large" style="color:#4e5d68;font-size:32pt;font-style:italic;font-family:'Noto Serif', serif;"> Steven Ramsay </span></div>
             <div class="w3-large " style="">
               <span class="headtxt" style="border-radius:7px 7px 7px 0px; display:inline-block;color:#95a1a5; ">
                 Department of Computer Science</span>
@@ -93,8 +91,6 @@ a:active {color:var(--linkcolour);text-decoration: none;}
       <!-- Links-->
       <div class="w3-cell-row w3-center w3-hide-small w3-padding-16">
         <div class="w3-cell"></div>
-        <div class="w3-cell w3-large" style="width:100px"><a href="#biography">About</a></div>
-        <div class="w3-cell w3-large" style="width:10px">-</div>
         <div class="w3-cell w3-large" style="width:100px"><a href="#research">Research</a></div>
         <div class="w3-cell w3-large" style="width:10px">-</div>
         <div class="w3-cell w3-large" style="width:100px"><a href="#funding">Funding</a></div>
@@ -106,68 +102,65 @@ a:active {color:var(--linkcolour);text-decoration: none;}
         <div class="w3-cell w3-large" style="width:100px"><a href="https://github.com/bristolpl">GitHub</a></div>
         <div class="w3-cell"></div>
       </div>
+      <br/>
       <!-- Body -->
-      <div class="w3-container w3-padding-24" id="biography">
-        <div class="w3-container bluebar"><span class="w3-round w3-padding bluelabel">About</span></div>
-        <div class="w3-container my-text w3-padding">
+      <div class="w3-container w3-padding-24 my-text" id="biography">
+          <br/>
           <p>
             I am a senior lecturer in the <a href="https://bristolpl.github.io/" target="_blank">Programming Languages Group</a> in the <a href="http://www.bris.ac.uk/engineering/departments/computerscience/" target="_blank">Department of Computer Science</a> at the <a href="https://www.bris.ac.uk" target="_blank">University of Bristol</a>.  My work concerns mathematical theories for reasoning about computation, and their application in the design of more intelligent and predictable tools for programming. 
           </p>
           <p>
             If you are interested in studying for a <a href="http://www.bristol.ac.uk/doctoral-college/" target="_blank">PhD</a> with me on one of these topics, take a look at my <a href="#research">research</a> and then let me know which papers you are interested in.
           </p>
-          <p>
-            Previously I was a postdoctoral researcher at the Universities of Oxford and Warwick, and I completed my DPhil at the University of Oxford.  Prior to academia, I worked in QinetiQ's formal methods group (later becoming <a href="https://www.drisq.com/" target="_blank">D-RisQ</a>), verifying the correctness of safety critical systems.
-          </p>
-        </div>
       </div>
-      <div class="w3-container w3-padding-24" id="research">
-        <div class="w3-container w3-round bluebar"><span class="w3-round w3-padding bluelabel">Research</span></div>
-        <div class="w3-container my-text w3-padding">
+      <div class="w3-container w3-padding-24 my-text w3-round" style="padding-left:3em">
+        <span class="w3-round w3-padding bluelabel" id="research">Current Research</span>
+      </div>
+        <div class="w3-container my-text">
           <p>My research is on program analysis and automated reasoning, especially for applications in program verification.  See <a href="https://research-information.bris.ac.uk/en/persons/steven-ramsay/publications/">here</a> for a full list of my publications.
           </p>
           <p>
             <ul class="w3-ul ">
-              <li><b>Tools for functional programming <a href="https://research-information.bris.ac.uk/files/265849562/3434336.pdf" target="_blank">[POPL'21]</a> <a href="papers/cycleq.pdf" target="_blank">[PLDI'22]</a>.</b> Designing tools based on automated reasoning to help programmers write bug-free code.
-              <li><b>Fragments of higher-order logic <a href="https://research-information.bris.ac.uk/files/142259264/popl18_p253.pdf" target="_blank">[POPL'18]</a> <a href="https://research-information.bris.ac.uk/files/271322251/main.pdf" target="_blank">[LICS'21]</a>.</b> Identifying and exploiting fragments of higher-order logic that have good computational properties.
-              <li><b>Automata over infinite alphabets <a href="papers/ra-bisimilarity.pdf" target="_blank">[LICS'15]</a> <a href="https://research-information.bris.ac.uk/files/135388861/1_s2.0_S0022000017300272_main.pdf" target="_blank">[JCSS'17]</a>.</b> Classifying foundational problems for register automata by their computational complexity.
-              <li><b>Higher-order model checking <a href="papers/cegar-pattern-match-safety.pdf" target="_blank">[POPL'11]</a> <a href="papers/type-directed-cegar-homc.pdf">[POPL'14]</a>.</b> Designing new methods for the higher-order extension of software model checking.
+              <li><i>Tools for functional programming</i> <a href="https://research-information.bris.ac.uk/files/265849562/3434336.pdf" target="_blank">[POPL'21]</a> <a href="papers/cycleq.pdf" target="_blank">[PLDI'22]</a>. Designing tools based on automated reasoning to help programmers write bug-free code.
+              <li><i>Fragments of higher-order logic</i> <a href="https://research-information.bris.ac.uk/files/142259264/popl18_p253.pdf" target="_blank">[POPL'18]</a> <a href="https://research-information.bris.ac.uk/files/271322251/main.pdf" target="_blank">[LICS'21]</a>. Identifying and exploiting fragments of higher-order logic that have good computational properties.
+              <li><i>Automata over infinite alphabets</i> <a href="papers/ra-bisimilarity.pdf" target="_blank">[LICS'15]</a> <a href="https://research-information.bris.ac.uk/files/135388861/1_s2.0_S0022000017300272_main.pdf" target="_blank">[JCSS'17]</a>. Classifying foundational problems for register automata by their computational complexity.
+              <li><i>Higher-order model checking</i> <a href="papers/cegar-pattern-match-safety.pdf" target="_blank">[POPL'11]</a> <a href="papers/type-directed-cegar-homc.pdf">[POPL'14]</a>. Designing new methods for the higher-order extension of software model checking.
             </ul>
           </p>
-        </div>
       </div>
-      <div class="w3-container w3-padding-24" id="funding">
-        <div class="w3-container w3-round bluebar"><span class="w3-round w3-padding bluelabel">Funded Projects</span></div>
-        <div class="w3-container w3-round my-text w3-padding">
+      <div class="w3-container w3-padding-24 my-text w3-round" style="padding-left:3em">
+        <span class="w3-round w3-padding bluelabel" id="funding">Funded Projects</span>
+      </div>
+        <div class="w3-container my-text">
           <ul class="w3-ul" >
-            <li><b>EPSRC (EP/T006595/1).</b> A 3.5 year project on <i>Higher-Order Constrained Horn Clauses: A New Approach to Verifying Higher-Order Programs.</i></li>
-            <li><b>UK Research Institute on Verified, Trustworthy Software Systems.</b> A PhD studentship on <i>Higher-Order Program Invariants</i>.</li>
+            <li><i>EPSRC (EP/T006595/1).</i> A 3.5 year project on <i>Higher-Order Constrained Horn Clauses: A New Approach to Verifying Higher-Order Programs.</i></li>
+            <li><i>UK Research Institute on Verified, Trustworthy Software Systems.</i> A PhD studentship on <i>Higher-Order Program Invariants</i>.</li>
           </ul>
         </div>
+      <div class="w3-container w3-padding-24 my-text w3-round" style="padding-left:3em">
+        <span class="w3-round w3-padding bluelabel" id="students">PhD Students</span>
       </div>
-      <div class="w3-container w3-padding-24" id="students">
-        <div class="w3-container w3-round bluebar"><span class="w3-round w3-padding bluelabel">PhD Students</span></div>
-        <div class="w3-container w3-round my-text w3-padding">
+        <div class="w3-container my-text">
           <ul class="w3-ul">
-            <li><b>Toby Cathcart Burn</b>, co-supervised with Luke Ong and based at the University of Oxford.</li>
-            <li><b>Eddie Jones</b>, funded by the VeTSS Research Institute and based at the University of Bristol.</li>
+            <li><i>Toby Cathcart Burn</i>, co-supervised with Luke Ong and funded by the University of Oxford.</li>
+            <li><i>Eddie Jones</i>, co-supervised with Luke Ong and funded by the VeTSS Research Institute.</li>
+            <li><i>Charlie Walpole</i>, funded by the University of Bristol.</li>
           </ul>
         </div>
-      </div>
-      <div class="w3-container w3-padding-24" id="teaching">
-        <div class="w3-container w3-round bluebar"><span class="w3-round w3-padding bluelabel">Current Teaching</span></div>
-        <div class="w3-container w3-round my-text w3-padding">
+        <div class="w3-container w3-padding-24 my-text w3-round" style="padding-left:3em">
+          <span class="w3-round w3-padding bluelabel" id="teaching">Current Teaching</span>
+        </div>
+        <div class="w3-container my-text">
           <p class="another">I run the following two courses at the University of Bristol:</p>
           <ul class="w3-ul">
-            <li><b>COMS30040: Types and Lambda Calculus.</b> An introduction to the pure, untyped lambda calculus, ML-style type systems and the Curry-Howard correspondence.</li>
-            <li><b>COMS20007: Programming Languages and Computation.</b> An introduction to automata theory, programming language theory and the theory of computation.</li>
-          </ul>
-        </div>
+            <li><i>COMS30040: Types and Lambda Calculus.</i> An introduction to the pure, untyped lambda calculus, ML-style type systems and the Curry-Howard correspondence.</li>
+            <li><i>COMS20007: Programming Languages and Computation.</i> An introduction to automata theory, programming language theory and the theory of computation.</li>
+          </ul>      <br/>
+      <br/>
+      <br/>
+      <br/>
       </div>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+
     </div>
     <div class="w3-col w3-mobile" style="width:10%">&nbsp;</div>
     <div class="w3-rest w3-mobile"></div>

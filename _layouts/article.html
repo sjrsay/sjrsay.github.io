@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/syntax.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2018.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2019.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <style>
+    :root {
+      --linkcolour:  hsl(177, 64%, 47%);
+    }
+
+    body {font-family: "Noto Serif", serif; font-weight: 400; background-color:rgb(205, 205, 205); color:#3a3b3b}
+    h1,h2,h3,h4,h5,h6 {font-family: "Noto Serif", serif; font-style:italic;}
+    a:link {color:var(--linkcolour);text-decoration: none;}
+    a:visited {color:var(--linkcolour);text-decoration: none;}
+    a:hover {color:var(--linkcolour);text-decoration: underline;}
+    a:active {color:var(--linkcolour);text-decoration: none;}
+
+    .headtxt {font-family: 'Noto Serif', serif; font-style:italic}
+
+    .my-text {background-color:white; font-size:12pt; font-weight:400; padding:0em 12em 0em 12em}
+
+    .bluebar { background-color:#d7dddf; border-radius:5px 5px 0px 0px;}
+    .headerbar { background-color:#bec7cc }
+
+    .bluelabel { color:#71959a; font-size:18pt; font-family:"Noto Serif",serif; font-style:italic; }
+    h2 { margin-top:30pt; color:#71959a; font-size:18pt; font-family:"Noto Serif",serif; font-style:italic; }
+    .addrinfo { text-align: left }
+
+    .mypic { text-align: right }
+
+    .buttons { text-align: center; }
+
+    .sidebar { width:200px }
+
+    .left-spacer { width:10%; display:none}
+
+    .maincol {
+      background-color:rgb(245, 245, 245); 
+      max-width:1020px; 
+      padding:0px;
+      border-width:0px 20px 0px 20px; 
+      border-style:none; 
+      border-color:rgb(240, 240, 240)
+    }
+
+    @media screen and (max-width:600px) {
+      .mypic { text-align: center }
+      .addrinfo { text-align: center }
+      .buttons { display:none  }
+      .sidebar { width:800px; }
+      .left-spacer { display:none }
+      .maincol { border-style:none; padding:0px }
+      .my-text { padding:0em 6em 0em 6em }
+    }
+
+    </style>
+</head>
+<body>
+  <div class="w3-row ">
+    <div class="w3-col left-spacer" style="width:10%">&nbsp</div>
+    
+    <div class="w3-col w3-mobile maincol">
+      <!-- Header -->
+      <div class="w3-cell-row w3-padding-16">
+        <div class="w3-cell"></div>
+        <div class="w3-cell w3-cell-middle w3-mobile" style="width:210px">
+          <div class="w3-container mypic w3-margin-bottom w3-margin-top">
+            <img class="w3-circle" style="width:150px" src="assets/images/wbc3.jpg" />
+          </div>
+        </div>
+        <div class="w3-cell w3-cell-middle w3-mobile w3-margin-bottom w3-margin-top" style="width:400px">
+          <div class="w3-container addrinfo">
+            <div class="w3-large">
+              <span class="w3-round headtxt" style="display:inline-block;color:#71959a; ">steven.ramsay at bristol.ac.uk</span>
+            </div>
+            <div class="w3-margin-left w3-padding-small" style="padding-left:0px"><span class="w3-round-large" style="color:#1a444a;font-size:32pt;font-style:italic;font-family:'Noto Serif', serif;"> Steven Ramsay </span></div>
+            <div class="w3-large " style="">
+              <span class="headtxt" style="border-radius:7px 7px 7px 0px; display:inline-block;color:#71959a; ">
+                School of Computer Science</span>
+            </div>
+            <div class="w3-large" style="" >
+                <span class="headtxt" style="color:#71959a; border-radius:7px 0px 7px 7px; display:inline-block;">University of Bristol, UK</span>
+            </div>
+          </div>
+        </div>
+        <div class="w3-cell"></div>
+      </div>
+      <!-- Body -->
+      <div class="w3-cell-row w3-padding-24 my-text">
+        <div class="w3-cell">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+    <div class="w3-col w3-mobile" style="width:10%">&nbsp;</div>
+    <div class="w3-rest w3-mobile"></div>
+    </div>
+  </body>
+  </html>

@@ -4,7 +4,7 @@
 ---
 
 
-I am a senior lecturer in the <a href="https://bristolpl.github.io/" target="_blank">Programming Languages Group</a> in the <a href="https://www.bristol.ac.uk/engineering/schools/computer-science/" target="_blank">School of Computer Science</a> at the <a href="https://www.bris.ac.uk" target="_blank">University of Bristol</a>.  My work concerns mathematical theories for reasoning about computation, and their application in the design of more intelligent and predictable tools for programming. 
+I am a Senior Lecturer in the <a href="https://bristolpl.github.io/" target="_blank">Programming Languages Group</a> in the <a href="https://www.bristol.ac.uk/engineering/schools/computer-science/" target="_blank">School of Computer Science</a> at the <a href="https://www.bris.ac.uk" target="_blank">University of Bristol</a>.  My work concerns mathematical theories for reasoning about computation, and their application in the design of more intelligent and predictable tools for programming. 
 
 If you are interested in studying for a <a href="http://www.bristol.ac.uk/doctoral-college/" target="_blank">PhD</a> with me on one of these topics, take a look at my research below and then let me know what you are interested in.
 

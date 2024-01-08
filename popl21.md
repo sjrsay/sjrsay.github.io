@@ -10,7 +10,7 @@ title: "POPL'21: Intensional Datatype Refinement"
 <h1 style="margin-bottom:0px">Intensional Datatype Refinement:</h1>
 <h2 style="margin-top:0px">With Application to Scalable Verification of Pattern-Matching Safety</h2>
 
-*This is essentially the transcript of a talk I gave in the SIGPLAN track of PLDI'22 about my joint work with my former PhD student <a href="https://ec-jones.github.io/" target="_blank">Eddie Jones</a>, which had been published POPL'21.  The full paper is available [here](https://research-information.bris.ac.uk/files/265849562/3434336.pdf).*
+*This is essentially the transcript of a talk I gave in the SIGPLAN track of PLDI'22 about joint work with my former PhD student <a href="https://ec-jones.github.io/" target="_blank">Eddie Jones</a>, which had been published POPL'21.  The full paper is available [here](https://research-information.bris.ac.uk/files/265849562/3434336.pdf).*
 
 In this work we wanted to create a new way to solve the pattern match safety problem.  This is, given a functional program, say a Haskell program, to verify that no execution of the program can trigger an inexhaustive match exception at runtime.  
 

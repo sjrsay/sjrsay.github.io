@@ -8,7 +8,7 @@ I am a Senior Lecturer in the <a href="https://bristolpl.github.io/" target="_bl
 
 If you are interested in studying for a <a href="http://www.bristol.ac.uk/doctoral-college/" target="_blank">PhD</a> with me on one of these topics, take a look at my research below and then let me know what you are interested in.
 
-## Current Research
+## Research
   
 My research is on program analysis and automated reasoning, especially for applications in program verification.
 
@@ -17,7 +17,7 @@ My research is on program analysis and automated reasoning, especially for appli
       <i>Tools for functional programming</i> <a href="https://research-information.bris.ac.uk/files/265849562/3434336.pdf" target="_blank">[POPL'21]</a> <a href="papers/cycleq.pdf" target="_blank">[PLDI'22]</a> <a href="https://arxiv.org/abs/2307.06928" target="_blank">[POPL'24]</a>. Designing tools based on automated reasoning to help programmers write bug-free code.
       <br/>
       <ul>
-        <li><a href="popl21.html">Intensional Datatype Refinement</a> : a short,  accessible introduction to my POPL'21 paper on a <i>predictable</i> program analysis for verifying (pattern-match) safety properties.</li>
+        <li><a href="popl21.html">Intensional Datatype Refinement</a> : a short,  accessible introduction to my POPL'21 work on a type system for <i>predictable</i> program analysis for verifying (pattern-match) safety properties.</li>
       </ul>
     </li>
     <li><i>Fragments of higher-order logic</i> <a href="https://research-information.bris.ac.uk/files/142259264/popl18_p253.pdf" target="_blank">[POPL'18]</a> <a href="https://research-information.bris.ac.uk/files/271322251/main.pdf" target="_blank">[LICS'21]</a> <a href="papers/homsl.pdf" target="_blank">[POPL'23]</a>. Investigating restrictions of higher-order logic that give good computational properties.</li>
@@ -41,7 +41,7 @@ My research is on program analysis and automated reasoning, especially for appli
     <li><i>Charlie Walpole</i>, funded by the University of Bristol.</li>
   </ul>
 
-## Current Teaching
+## Teaching
 
 I run the following two courses at the University of Bristol:
 

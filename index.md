@@ -17,6 +17,7 @@ My research is on program analysis and automated reasoning, especially for appli
       <i>Tools for functional programming</i> <a href="https://research-information.bris.ac.uk/files/265849562/3434336.pdf" target="_blank">[POPL'21]</a> <a href="papers/cycleq.pdf" target="_blank">[PLDI'22]</a> <a href="https://arxiv.org/abs/2307.06928" target="_blank">[POPL'24]</a>. Designing tools based on automated reasoning to help programmers write bug-free code.
       <br/>
       <ul>
+        <li><a href="popl24.html">Ill-Typed Programs Don't Evaluate</a> : a short, accessible introduction to my POPL'24 work on a <i>fundamental new extension to the notion of type system</i>, and an application to incorrectness reasoning.</li>
         <li><a href="popl21.html">Intensional Datatype Refinement</a> : a short,  accessible introduction to my POPL'21 work on a refinement type system for <i>predictable</i> program analysis for verifying (pattern-match) safety properties.</li>
       </ul>
     </li>

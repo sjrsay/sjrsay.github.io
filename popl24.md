@@ -54,7 +54,7 @@ which, for any terms M and N, says that, whenever this conditional, which tests 
 Of course, we do not loose anything by making typings first-class objects in this way, we can still reason about compound terms on the right of the turnstile, since from the first of these we can deduce that y is a nat and from the second of these we can deduce z is a nat, so y + z must be a nat:
 
 $$
-  (\lambda x.\,x)\,y : \natty, \mathsf{ifz}\, z \,\mathsf{then}\,M\,\mathsf{else}\, N : \natty \vdash y + z : \natty
+  (\lambda x.\,x)\,y : \natty\; \,\mathsf{ifz}\, z \,\mathsf{then}\,M\,\mathsf{else}\, N : \natty \vdash y + z : \natty
 $$
 
 If we have a more sophisticated collection of base types, as is found in some of these more sophisticated systems we see published at POPL, we can express more interesting 2-sided judgements.  For example, in their POPL'94 paper, Aiken, Wimmers and Lakshman used a type theory in which data constructors can be lifted to the type level (and I followed them in my [POPL'21](https://research-information.bris.ac.uk/files/265849562/3434336.pdf) paper, which traded-off expressive power for a linear-time complexity guarantee).  So there is, for example, a type $\consty{}(A,B)$ that is inhabited by all terms of shape $\mathsf{Cons}(M,N)$ whose head $M$ is of type $A$ and whose tail $N$ is of type $B$, and a type $\nilty$ containing just the empty list.  For example, the list $[1,2,3]$ has the type: 

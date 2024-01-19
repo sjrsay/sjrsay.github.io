@@ -51,7 +51,7 @@ $$
 
 which, for any terms M and N, says that, whenever this conditional, which tests if some variable z is zero, evaluates to a natural number, then z must be a natural number too.
 
-Of course, we do not loose anything by making typings first-class objects in this way, we can still reason about compound terms on the right of the turnstile, since from the first of these we can deduce that y is a nat and from the second of these we can deduce z is a nat, so y + z must be a nat:
+Of course, we do not loose anything by making typings first-class objects in this way, we can still reason about compound terms on the right of the turnstile.  Since from the first of these hypotheses below we can deduce that y is a nat and from the second of these we can deduce z is a nat, so y + z must be a nat:
 
 $$
   (\lambda x.\,x)\,y : \natty,\; \,\mathsf{ifz}\, z \,\mathsf{then}\,M\,\mathsf{else}\, N : \natty \vdash y + z : \natty

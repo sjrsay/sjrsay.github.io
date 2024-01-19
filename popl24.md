@@ -87,9 +87,9 @@ $$
 
 In other words, it cannot be the case that $x$ is a nat to nat function and, simultaneously, that the head of the singleton list containing $x$ is a nat.  In other words, $x:\natty \to \natty$ and $\mathsf{head}\,(\mathsf{Cons}(x,\mathsf{Nil})):\natty$ implies false.
 
-Ok, so now I hope you get some intuition about the kinds of possibilities open up by making typing first-class in this way.  But, I guess you may wonder if the type systems, the formal rules, that lie behind these judgements can be as beautiful as we know traditional type systems are.  Let's take a look.
+Ok, so now I hope you get some intuition about the kinds of possibilities open up with these kind of symmetrical judgements.  But, I guess you may wonder what the type systems, the formal rules, look like.
 
-The idea is to see type systems as sequent calculi where *the only formulas are typings*.  As is typical for sequent calculi these systems have rules that explain how to justify certain shapes of formula, and the rules can be classified as either left rules or right rules depending on which side of the turnstile the formula appears.  
+Here, our key idea is to see type systems as sequent calculi where *the only formulas are typings*.  As is typical for sequent calculi these systems have rules that explain how to justify certain shapes of formula, and the rules can be classified as either left rules or right rules depending on which side of the turnstile the formula appears.  
 
 The right rules include all the "usual" rules that are found in a traditional type system, so all the type systems you already know and love can be thought of as sequent calculi that have only right rules.  The only small difference is that now we can have multiple typings on the right of the turnstile as well as the left, so the judgements are a little more symmetrical, and we use $\Delta$ to stand for a context occurring on the right.  
 

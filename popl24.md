@@ -29,7 +29,7 @@ If we think of a type system as a kind of a proof system, then the purpose is to
 
 Something that is clear from this view is that, unlike more traditional proof systems, say for first-order logic, type systems bake-in a fundamental asymmetry: although we can conclude an arbitrary atomic formula $M:B$, we may only assume atomic formulas that have a specific shape, namely variable : type.  It's clear how this restriction evolved when we think of type systems as a means to define what constitutes valid syntax, but when we think of a type system rather as a mechanism for proving properties of programs, it raises a question - why do we persist with it?  Semantically, we know what an arbitrary formula like $N:A$ means, $N$ evaluates to a value of type $A$, so a hypothetical statement predicated upon such a formula makes sense, semantically.  
 
-Well, in our paper we show that removing this restriction leads to a very rich, new kind of type theory and that it is actually very natural and, moreover, it provides a foundation for the kind of incorrectness reasoning that we mentioned previously.
+Well, in our paper we show that removing this restriction leads to a rich, new kind of type theory, which is natural and, moreover, provides a foundation for a kind of incorrectness reasoning.
 
 $$
   N_1:A_1,\,\ldots,\,N_n:A_n \vdash M:B

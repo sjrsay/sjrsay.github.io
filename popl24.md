@@ -174,7 +174,7 @@ The "usual" function type we will distinguish as the "sufficiency" function type
 
 $$
   \begin{prooftree}
-    \AxiomC{$\Gamma,\,x:A \vdash M:B\,\Delta$}
+    \AxiomC{$\Gamma,\,x:A \vdash M:B,\,\Delta$}
     \RightLabel{(AbsR)}
     \UnaryInfC{$\Gamma \vdash \lambda x.\,M : A \to B,\,\Delta$}
   \end{prooftree}

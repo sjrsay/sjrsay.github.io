@@ -85,7 +85,7 @@ $$
   x:\natty \to \natty,\; \mathsf{head}\,(\mathsf{Cons}\,(x,\,\mathsf{Nil})) : \natty \vdash
 $$
 
-In other words, it cannot be the case that $x$ is a nat to nat function and, simultaneously, that the head of the singleton list containing $x$ is a nat.  In other words, $x:\natty \to \natty$ and $\mathsf{head}\,(\mathsf{Cons(x,\mathsf{Nil})):\natty$ implies false.
+In other words, it cannot be the case that $x$ is a nat to nat function and, simultaneously, that the head of the singleton list containing $x$ is a nat.  In other words, $x:\natty \to \natty$ and $\mathsf{head}\,(\mathsf{Cons}(x,\mathsf{Nil})):\natty$ implies false.
 
 Ok, so now I hope you get some intuition about the kinds of possibilities open up by making typing first-class in this way.  But, I guess you may wonder if the type systems, the formal rules, that lie behind these judgements can be as beautiful as we know traditional type systems are.  Let's take a look.
 

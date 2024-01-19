@@ -135,7 +135,7 @@ $$
   \end{prooftree}
 $$
 
-Here's a more interesting left rule, which says how to refute a let-destructor for pairs.  So, suppose we have this let expression on pairs and we want to refute that it evaluates to an $A$.  One way to do that is to say, well, if the let were to evaluate to an $A$, then it must be because the $N$ part evaluates to an $A$ under the appropriate substitution, so we can ask the question what does $N$ require of its free variables $x_1$ and $x_2$ whenever it evaluates to an $A$?  This is the content of this judgement.  Once we have established that "if $N$ is of type $A$ then necessarily each $x_i$ has some type $B_i$ respectively", then we can just refute that $M$ provides components of these types, i.e. refute (here we are on the left of the turnstile) that $M$ is of type $B_1 \times B_2$.
+Here's a more interesting left rule, which says how to refute a let-destructor for pairs.  So, suppose we have this let expression on pairs and we want to refute that it evaluates to an $A$.  One way to do that is to say, well, if the let were to evaluate to an $A$, then it must be because the $N$ part evaluates to an $A$ under the appropriate substitution, so we can ask the question what does $N$ require of its free variables $x_1$ and $x_2$ whenever it evaluates to an $A$?  This is the content of the second and third premises below.  Once we have established that "if $N$ is of type $A$ then necessarily each $x_i$ has some type $B_i$ respectively", then we can just refute that $M$ provides components of these types, i.e. refute (here we are on the left of the turnstile) that $M$ is of type $B_1 \times B_2$.
 
 $$
   \begin{prooftree}

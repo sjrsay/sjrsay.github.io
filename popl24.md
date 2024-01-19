@@ -254,7 +254,7 @@ $$
 \end{prooftree}
 $$
 
-As I said earlier, more usually we use left rules not to refute a formula outright, but rather to extract useful information about the subterms.   Here is a complete derivation of the fact that (\x.x) y being a nat implies that y must be a nat:
+As I said earlier, more usually we use left rules not to refute a formula outright, but rather to extract useful information about the subterms.   Here is a complete derivation of the fact that $(\lambda x.x)\,y$ being a nat implies that $y$ must be a nat:
 
 $$
 \begin{prooftree}

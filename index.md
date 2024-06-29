@@ -35,7 +35,7 @@ My research is on program analysis and automated reasoning, especially for appli
 ## Funded Projects
 
   <ul class="w3-ul" >
-    <li><i>Meta Research.</i> A $50k award to develop a scalable static taint analysis for Core Erlang.</li>
+    <li><i>Meta Research.</i> An award to develop a scalable static taint analysis for Core Erlang.</li>
     <li><i>EPSRC (EP/T006595/1).</i> A 3.5 year project on <i>Higher-Order Constrained Horn Clauses: A New Approach to Verifying Higher-Order Programs.</i></li>
     <li><i>UK Research Institute on Verified, Trustworthy Software Systems.</i> A PhD studentship on <i>Higher-Order Program Invariants</i>.</li>
   </ul>

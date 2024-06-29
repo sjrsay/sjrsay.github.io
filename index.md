@@ -4,7 +4,7 @@
 ---
 
 
-I am a Senior Lecturer in the <a href="https://bristolpl.github.io/" target="_blank">Programming Languages Group</a> in the <a href="https://www.bristol.ac.uk/engineering/schools/computer-science/" target="_blank">School of Computer Science</a> at the <a href="https://www.bris.ac.uk" target="_blank">University of Bristol</a>.  My work concerns mathematical theories for reasoning about computation, and their application in the design of more intelligent and predictable tools for programming. 
+I am a Senior Lecturer in the <a href="https://bristolpl.github.io/" target="_blank">Programming Languages Group</a> in the <a href="https://www.bristol.ac.uk/engineering/schools/computer-science/" target="_blank">School of Computer Science</a> at the <a href="https://www.bris.ac.uk" target="_blank">University of Bristol</a>.  I work on mathematical theories for reasoning about computation, and their application in the design of more intelligent and predictable tools for programming. 
 
 If you are interested in studying for a <a href="http://www.bristol.ac.uk/doctoral-college/" target="_blank">PhD</a> with me on one of these topics, take a look at my research below and then let me know what you are interested in.  For some of my more recent papers, I have linked separate introductions that are more suitable for a general PL audience (some background in type systems and/or logic).
 
@@ -25,7 +25,7 @@ My research is on program analysis and automated reasoning, especially for appli
       <i>Fragments of higher-order logic</i> <a href="https://research-information.bris.ac.uk/files/142259264/popl18_p253.pdf" target="_blank">[POPL'18]</a> <a href="https://research-information.bris.ac.uk/files/271322251/main.pdf" target="_blank">[LICS'21]</a> <a href="papers/homsl.pdf" target="_blank">[POPL'23]</a>. Investigating restrictions of higher-order logic that give good computational properties.
       <br/>
       <ul>
-        <li><a href="popl23.html">Higher-Order MSL Horn Constraints</a> : a more accessible introduction to my POPL'23 work on a decidable fragment of higher-order Horn clauses and a deeper correspondence between formulas and types.</li>
+        <li><a href="popl23.html">Higher-Order MSL Horn Constraints</a> : a more accessible introduction to my POPL'23 work on a decidable fragment of higher-order Horn clauses and a semantic correspondence between formulas and types.</li>
       </ul>
     </li>
     <li><i>Higher-order model checking</i> <a href="papers/cegar-pattern-match-safety.pdf" target="_blank">[POPL'11]</a> <a href="papers/type-directed-cegar-homc.pdf">[POPL'14]</a>. Designing new methods for the higher-order extension of software model checking.</li>
@@ -43,9 +43,8 @@ My research is on program analysis and automated reasoning, especially for appli
 ## PhD Students
 
   <ul class="w3-ul">
-    <li><i>Toby Cathcart Burn</i>, co-supervised with Luke Ong and funded by the University of Oxford.</li>
-    <li><i>Eddie Jones</i>, co-supervised with Luke Ong and funded by the VeTSS Research Institute.</li>
     <li><i>Charlie Walpole</i>, funded by the University of Bristol.</li>
+    <li><i>Eddie Jones</i>, co-supervised with Luke Ong and funded by the VeTSS Research Institute.</li>
   </ul>
 
 ## Teaching

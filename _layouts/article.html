@@ -28,16 +28,33 @@
     </script>
     <style>
     :root {
-      --linkcolour:  hsl(177, 64%, 47%);
+      --linkcolour:  #2bc5bd;
     }
 
-    body {font-family: "Noto Serif", serif; font-weight: 400; background-color:rgb(205, 205, 205); color:#3a3b3b}
+    body {font-family: "Noto Serif", serif; font-weight: 400; /*background-color:rgb(205, 205, 205); color:#3a3b3b*/}
     h1,h2,h3,h4,h5,h6 {font-family: "Noto Serif", serif; font-style:italic;}
     a:link {color:var(--linkcolour);text-decoration: none;}
     a:visited {color:var(--linkcolour);text-decoration: none;}
     a:hover {color:var(--linkcolour);text-decoration: underline;}
     a:active {color:var(--linkcolour);text-decoration: none;}
 
+    html {
+      /* Thanks to https://css-pattern.com/outline-leafs/ */
+      --s: 50px; /* control the size*/
+      --c1: hsl(0, 0%, 85%);
+      --c2: rgb(205, 205, 205);
+      
+      --c:#0000 79%,var(--c1) 81% 99%,var(--c2) 101% 150%,#0000 0;
+      background:
+        radial-gradient(var(--s) at 100% 100%,var(--c)),
+        radial-gradient(var(--s) at 100% 0   ,var(--c)) calc(3*var(--s)/2) 0,
+        radial-gradient(var(--s) at 0    100%,var(--c)) calc(  var(--s)/2) 0,
+        radial-gradient(var(--s) at 0    0   ,var(--c)) calc(2*var(--s)) 0,
+        repeating-linear-gradient(90deg,
+          var(--c1) 0 calc(20%/3),#0000 0 calc(70%/3),
+          var(--c1) 0 30%,#0000 0 50%) calc(var(--s)/-5) 0 var(--c2);
+      background-size: calc(3*var(--s)) calc(5*var(--s)/2);
+}
     .headtxt {font-family: 'Noto Serif', serif; font-style:italic}
 
     .my-text {background-color:white; font-size:12pt; font-weight:400; padding:0em 12em 0em 12em}

@@ -17,15 +17,15 @@ My research is on program analysis and automated reasoning, especially for appli
       <i>Tools for functional programming</i> <a href="https://research-information.bris.ac.uk/files/265849562/3434336.pdf" target="_blank">[POPL'21]</a> <a href="papers/cycleq.pdf" target="_blank">[PLDI'22]</a> <a href="https://arxiv.org/abs/2307.06928" target="_blank">[POPL'24]</a>. Designing tools based on automated reasoning to help programmers write bug-free code.
       <br/>
       <ul>
-        <li><a href="popl24.html">Ill-Typed Programs Don't Evaluate</a> : a short, accessible introduction to my POPL'24 work on a <i>fundamental new extension to the notion of type system</i>, and an application to incorrectness reasoning.</li>
-        <li><a href="popl21.html">Intensional Datatype Refinement</a> : a short,  accessible introduction to my POPL'21 work on a refinement type system for <i>predictable</i> program analysis for verifying (pattern-match) safety properties.</li>
+        <li><a href="popl24.html">Ill-Typed Programs Don't Evaluate</a> : a short introduction to my POPL'24 work on a new extension to the notion of type system, and an application to incorrectness reasoning.</li>
+        <li><a href="popl21.html">Intensional Datatype Refinement</a> : a short introduction to my POPL'21 work on a refinement type system for <i>predictable</i> program analysis for verifying (pattern-match) safety properties.</li>
       </ul>
     </li>
     <li>
       <i>Fragments of higher-order logic</i> <a href="https://research-information.bris.ac.uk/files/142259264/popl18_p253.pdf" target="_blank">[POPL'18]</a> <a href="https://research-information.bris.ac.uk/files/271322251/main.pdf" target="_blank">[LICS'21]</a> <a href="papers/homsl.pdf" target="_blank">[POPL'23]</a>. Investigating restrictions of higher-order logic that give good computational properties.
       <br/>
       <ul>
-        <li><a href="popl23.html">Higher-Order MSL Horn Constraints</a> : a more accessible introduction to my POPL'23 work on a decidable fragment of higher-order Horn clauses and a semantic correspondence between formulas and types.</li>
+        <li><a href="popl23.html">Higher-Order MSL Horn Constraints</a> : a short introduction to my POPL'23 work on a decidable fragment of higher-order Horn clauses and a semantic correspondence between formulas and types.</li>
       </ul>
     </li>
     <li><i>Higher-order model checking</i> <a href="papers/cegar-pattern-match-safety.pdf" target="_blank">[POPL'11]</a> <a href="papers/type-directed-cegar-homc.pdf">[POPL'14]</a>. Designing new methods for the higher-order extension of software model checking.</li>

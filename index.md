@@ -44,7 +44,7 @@ My research is on program analysis and automated reasoning, especially for appli
 
   <ul class="w3-ul">
     <li><i>Charlie Walpole</i>, funded by the University of Bristol.</li>
-    <li><i>Eddie Jones</i>, funded by the VeTSS Research Institute.</li>
+    <li><i>Eddie Jones</i>, graduated 2024, now a Lecturer at University of Bristol.</li>
   </ul>
 
 ## Teaching

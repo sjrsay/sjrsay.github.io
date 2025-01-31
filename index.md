@@ -43,6 +43,7 @@ My research is on program analysis and automated reasoning, especially for appli
 ## PhD Students
 
   <ul class="w3-ul">
+    <li><i>Celia Li</i>, funded by the University of Bristol.</li>
     <li><i>Charlie Walpole</i>, funded by the University of Bristol.</li>
     <li><i>Eddie Jones</i>, graduated 2024, now a Lecturer at University of Bristol.</li>
   </ul>

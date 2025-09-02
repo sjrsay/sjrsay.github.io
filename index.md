@@ -35,14 +35,17 @@ My research is on program analysis and automated reasoning, especially for appli
 ## Funded Projects
 
   <ul class="w3-ul" >
-    <li><i>Meta Research.</i> An award to develop a scalable static taint analysis for Core Erlang.</li>
-    <li><i>EPSRC (EP/T006595/1).</i> A 3.5 year project on <i>Higher-Order Constrained Horn Clauses: A New Approach to Verifying Higher-Order Programs.</i></li>
-    <li><i>UK Research Institute on Verified, Trustworthy Software Systems.</i> A PhD studentship on <i>Higher-Order Program Invariants</i>.</li>
+    <li><i>EPSRC.</i> Research project on <i>Types for Incorrectness</i> (2025-2027).</li>
+    <li><i>Meta Research.</i> Research project on <i>Scalable static taint analysis for Core Erlang</i> (2024).</li>
+    <li><i>EPSRC (EP/T006595/1).</i> Research project on <i>Higher-Order Constrained Horn Clauses: A New Approach to Verifying Higher-Order Programs</i>(2020-2023).</li>
+    <li><i>UK Research Institute on Verified, Trustworthy Software Systems.</i> PhD studentship on <i>Higher-Order Program Invariants</i>.(2020-2023)</li>
   </ul>
 
 ## PhD Students
 
   <ul class="w3-ul">
+    <li><i>Amos Holland</i>, funded by the University of Bristol.</li>
+    <li><i>Chenghao Su</i>, visiting from Nanjing University, China.</li>
     <li><i>Celia Li</i>, funded by the University of Bristol.</li>
     <li><i>Charlie Walpole</i>, funded by the University of Bristol.</li>
     <li><i>Eddie Jones</i>, graduated 2024, now a Lecturer at University of Bristol.</li>

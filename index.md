@@ -38,7 +38,7 @@ My research is on program analysis and automated reasoning, especially for appli
     <li><i>EPSRC.</i> Research project on <i>Types for Incorrectness</i> (2025-2027).</li>
     <li><i>Meta Research.</i> Research project on <i>Scalable Static Taint analysis for Core Erlang</i> (2024).</li>
     <li><i>EPSRC.</i> Research project on <i>Higher-Order Constrained Horn Clauses: A New Approach to Verifying Higher-Order Programs</i> (2020-2023).</li>
-    <li><i>UK Research Institute on Verified, Trustworthy Software Systems.</i> PhD studentship on <i>Higher-Order Program Invariants</i>.(2020-2023)</li>
+    <li><i>UK Research Institute on Verified, Trustworthy Software Systems.</i> PhD studentship on <i>Higher-Order Program Invariants</i> (2020-2023).</li>
   </ul>
 
 ## PhD Students
